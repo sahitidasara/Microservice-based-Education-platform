@@ -1,0 +1,309 @@
+Question: What is the function of a Roles option in Web CR Administration?
+Answer: To manage or assign roles.
+Question: In Web CR, My Device tab, what are the three status that a device can be in?
+Answer: Connected, Disconnected and Offline.
+Question: In Web CR, what does the HDD utilization widget display?
+Answer: It displays the number of devices that crossed the threshold for HDD usage.
+Question: In Web CR, what the insight component help with?
+Answer: Analyse task data in real-time.
+Question: In Web CR, how to transfer data from a previous Control Room Version 10.x to the current version 11.x?
+Answer: Using Migration option.
+Question: In Web CR, which option in the Administration panel allows the user to view a list of purchased products?
+Answer: License.
+Question: In Web CR, how to monitor certain events like the highest percentage of a particular activity being performed based on either user name or host machine type?
+Answer: Using Audit component.
+Question: In Web CR, how to move Bots from one automation room to another?
+Answer: Using Import Bots option.
+Question: In Web CR, how to check the different errors that the Bots may have encountered?
+Answer: Using Top Failure Reasons widget under Bots page.
+Question: What are device pools?
+Answer: Collection of Bot runners.
+Question: In Web CR, what are the different options provided to the user in the Dashboard?
+Answer: Audit, Workload and Insights Dashboard.
+Question: In Web CR, which of the option defines number of work items and number of devices required to process?
+Answer: SLA Calculator.
+Question: In Web Cr, which option schedules a Bot to be executed at a specific point in time?
+Answer: Schedule Bots.
+Question: In Web CR, which dashboard helps consumers to analyse task data and enhance widgets?
+Answer: Insights Dashboard.
+Question: What are the benefits of workload management?
+Answer:
+Assists in management of work items.
+Adds queues manually and automatically.
+Enhances the control of queues.
+Question: In Web CR, what is the function of the Audit Log?
+Answer: Enforces internal compliance regulations.
+Question: Which method is used in Smart Recorder to select a button?
+Answer: Use Click Action.
+Question: Which web browser is generally recommended to use with recorders?
+Answer: Internet Explorer 9+.
+Question: Which recorder is used that works primarily by using objects?
+Answer: Smart Recorder.
+Question: Which recorder is best used for Internet-based process?
+Answer: Web Recorder.
+Question: Which recorder primarily utilizes screen coordinates, mouse clicks, and keyboard operations?
+Answer: Screen Recorder.
+Question: Which web-based technologies does Smart Recorder capture?
+Answer: HTML.
+Question: While building a task using Screen Recorder, which points should be kept in mind?
+Answer:
+Use the same operating system for task recording and execution.
+Use the same screen resolution for task recording and execution.
+Question: Which Error Handling option is used to capture a picture of the bot runner desktop once error occur?
+Answer: Select the Take Snapshot option.
+Question: Which Error Handling option is used to specify a value to a variable to set a task status once error occur?
+Answer: Variable Assignment.
+Question: Which command is used to click a button, when using the web recorder?
+Answer: Manage Web Controls.
+Question: While working in Error Handling, which option is used to add an additional line error data to an existing log file.
+Answer: Append into Log file under Log Data into File.
+Question: When using the Log Data into File option of the Error Handling command, what happens when you press the F2 key while your cursor is in the Log File field?
+Answer: It will insert a variable.
+Question: Which command is used to change the name of a folder to the current date?
+Answer: Files/Folder – Rename Folder.
+Question: Which command is used, when using the Image Recognition command, check if the target image is identified in the source window?
+Answer: Quick Test.
+Question: In the Image Recognition command, which values of the Match Percentage ensures all the pixels match between the two images captured using Image Recognition command?
+Answer: 100.
+Question: Which option should select in the Log to file section of the Error Handling command to record the time and date when the error occurred?
+Answer: Add Timestamp.
+Question: Which commands allows you to specify a time to wait for the condition to be true before taking another action?
+Answer: If/Else command.
+
+
+
+
+
+1. To get a graphical representation of Events Distribution by Activity Type, a CR admin need to refer to …. dashboard.
+a. Audit
+
+2. Which of the following options in AAE support the email notification feature?
+a. All
+
+3. Which of the following client is accessible to a user with ‘AAE_Admin’ system role assigned?
+a. Bot Creator
+
+
+
+4. Which of the following email based triggers does AAE 11 CR support out of box?
+a. A Task Bot stopped running because it is unsuccessfull
+b. User activated/deactivated
+c. User information updated
+d. A BLM package is exported/imported
+
+5. Locker managers have all the permissions that owners do except they cannot add other owners or managers
+a. True
+
+6. As a Control Room user with ‘Manage and Update all schedules’ privileges, one can activate or deactivate scheduled activities in the following ways.
+a. Either individually or in bulk
+
+7. Users can see lockers only if they have created them or if they are a member of that locker
+a. True
+
+8. Which of the following WebCR feature allows to view the list of all client machines along with their name, type and status in read-only form
+a. Devices
+
+9. Which of the following types of reports are generated by the Report Designer
+a. Task failure (bad answer)
+b. Task log (probably good answer)
+
+10. Which system variable can be used in the required command to access the work item attributes from a queue category?
+a. $dataset column$
+
+11. Credential Variables can be seen and accessed from the … window
+a. Variable manager – bad answer
+b. Insert variables – probably good answer
+
+12. Which of the following is not a valid recorder in AA Enterprise Platform?
+a. Desktop Recorder
+
+13. In the loop associated with Database command, which system variable is used to extract column values from the database table?
+a. $Table Column$
+
+14. Which of the following ROI setting can be modified in Client?
+a. Hourly time
+
+15. Which of the following are possible in Error Handling?
+a. All
+
+16. Which one of the following is ‘highly’ not recommended to use if the application is local and offers full support of objects for automation?
+a. Object cloning
+
+17. In case there is no error in a task, the value of ‘error line number’ will be..
+a. 0
+
+18. Which of the following commands does not support Credential Variables?
+a. Log to file <- answer
+b. Active directory
+
+19. Which of the following is an extension of a Metabot File?
+a. .mbot
+
+20. The FTP- Put Files command is used to
+a. Upload file(s) from local system to FTP/SFTP server
+
+21. Conditional decision making is out of the scope of rpa automation.
+True/False
+
+
+
+
+
+
+
+
+Q1.) RPA stores data and enable automation? True/Falseautomation anywhere
+Answer: True.
+
+Q2.) Which is the best option to extract the data from flattened PDF in Automation Anywhere?
+
+Answer: Extract Text.
+
+Q3.) What are the commands that support secure recording mode select one or more in Automation Anywhere?
+
+Answer: Object cloning, Image Recognition.
+
+Q4.) Which option in Automation Anywhere is used to read entire cells in excel?
+
+Answer: Get all cells.
+
+Q5.) What are the actions that can be performed in image recognition once the image is found in AA?
+
+Answer: Double Click, Left Click, Right Click.
+
+Q6.) To compare, find, split and join strings which feature in Automation Anywhere can be used?
+
+Answer: String operation
+
+Q7.) If at all the Credential information needs to be stored in a centralized location, then what are all the options available Automation Anywhere?
+
+Answer: Automation Anywhere Credential Manager.
+
+Q8.) RPA interacts with multiple applications at the ___________ layer in Automation Anywhere.
+
+Answer: Presentation
+
+Q9.) Is it possible to check broken links using a web recorder in Automation Anywhere? True/False
+
+Answer: True.
+
+Q10.) Which of the following actions can be performed by the user with a Bot runner role in AA?
+
+Answer: Can add, edit, and delete schedules for tasks on your client machine.
+
+
+ 
+Q11.) The sequence of user action is captured to speed up the process definition using _________.
+
+Answer: Process Recorder.
+
+Q12.) Which of the options are available in Automation Anywhere to activate sheet in excel?
+
+Answer: Sheet By Index, Sheet By Name.
+
+Q13.) Does the PDF integration command support to extract the structured text in AA?
+
+Answer: Extract text
+
+Q14.) Do all the RPA tools provide both front and back-office automation? True/False
+
+Answer: False.
+
+Q15.) PDF Integration in Automation Anywhere supports both encrypted and unencrypted files? True/False
+
+Answer: True.
+
+Q16.) Greater resilience is achieved in RPA through _______ in Automation Anywhere.
+
+Answer: Functional approach.
+
+Q17.) How do we allocate an existing license from one user to another user in the same machine in automation anywhere?
+
+Answer: Deactivate the existing user, create a new user, and log in with the credentials.
+
+
+ 
+Q18.) ______ is the master repository of jobs in Automation Anywhere.
+
+Answer: Robot Controller.
+
+
+Automation Anywhere Certification Questions
+Q1.) What is a Default mode of credential manager in Automation Anywhere?
+
+Answer: The default mode of the credential manager is the express mode. There are two modes Express and Manual. Both modes are for Credential Vault.
+
+Q2.) Which subversion (SVN) is used in automation anywhere for creating and maintaining a repository?
+
+Answer: Automation anywhere supports Apache subversion. Neither visual nor tortoise.
+
+Q3.) Which browsers are supported in automation anywhere?
+
+Answer: IE 10 & 11, FIREFOX 45,46,47, CHROME 49 and above (Chrome is not supported in meta bot designers).
+
+
+ 
+Q4.) What is the use of wildcard in automation anywhere?
+
+Answer: Wildcard is mostly used for extracting particular data from a document /txt.
+
+Q5.) Which type of script is supported by automation anywhere?
+
+Answer: JavaScript and VB script.
+
+Q6.) Tell the name of app integration commands in automation anywhere?
+
+Answer: Browser, Dos Command prompt, Java Applet.
+
+Q7.) What are the ways of maintaining logs feature in automation anywhere?
+
+Answer: Logs to File command is used for this.
+
+Q8.) Tell the name of System variables, used to read the data from your CSV/text file?
+
+Answer: File Data Column.
+
+Q9.) Explain the workflow designer?
+
+Answer: It helps you build a process flow diagram in a graphical environment. These you can subsequently use to build and run automated tasks in the program.
+
+Q10.) Which command is used to send and read the email using your automation anywhere enterprise client?
+
+Answer: Email automation command is used to read the emails and send email commands used for sending the mail.
+
+Q11) What are commands used to download a file in automation anywhere?
+
+Answer: Web Recorder command is used to download a file.
+
+
+ 
+Q12.) Which are the most important checks required to do during web recording command?
+
+Answer: URL.
+
+Q13.) How to assign a new set of permissions to a group of users in automation anywhere?
+
+Answer: We use Active Directory to create a group and modify the permissions.
+
+Q14.) What is the automation anywhere meta bot file extension?
+
+Answer: .MBOT
+
+Q15.) What is the task bot file extension in automation anywhere?
+
+Answer: .ATMX
+
+Q16.) What is the automation anywhere report designer file extension?
+
+Answer: .RTDX
+
+Q17.) What is the workflow file extension in automation anywhere?
+
+Answer: .WKFX
+
+
+
+
+
+
+
