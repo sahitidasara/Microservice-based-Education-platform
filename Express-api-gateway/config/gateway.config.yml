@@ -1,0 +1,64 @@
+http:
+  port: 8081
+ 
+apiEndpoints:
+  userService:
+    host: 'localhost'
+    paths: ['/api/v1/users', '/api/v1/login']
+  courseService:
+    host: 'localhost'
+    paths: ['/api/v1/courses', '/api/v1/courses/*']
+  contentService:
+    host: 'localhost'
+    paths: ['/api/v1/content/*','/api/v1/content']
+  progressService:
+    host: 'localhost'
+    paths: ['/api/v1/progress/*', '/api/v1/progress']
+
+serviceEndpoints:
+  userService:
+    url: 'http://localhost:5000'
+  courseService:
+    url: 'http://localhost:5050'
+  contentService:
+    url: 'http://localhost:3003'
+  progressService:
+    url: 'http://localhost:6050'
+policies:
+  - basic-auth
+  - cors
+  - expression
+  - key-auth
+  - log
+  - oauth2
+  - proxy
+  - rate-limit
+pipelines:
+  userPipeline:
+    apiEndpoints:
+      - userService
+    policies:
+      - proxy:
+        - action: 
+            serviceEndpoint: userService
+  coursePipeline:
+    apiEndpoints:
+      - courseService
+    policies:
+      - proxy:
+          - action:
+              serviceEndpoint: courseService
+  contentPipeline:
+    apiEndpoints:
+      - contentService
+    policies:
+      - proxy:
+          - action:
+              serviceEndpoint: contentService
+  progressPipeline:
+    apiEndpoints:
+      - progressService
+    policies:
+      - proxy:
+          - action:
+              serviceEndpoint: progressService
